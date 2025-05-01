@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    font-family: Arial, sans-serif;
+    height: 100%;
+  }
+  
+
+
+  .hero {
+    background: url('../images/ip.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+    text-align: left;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    color: black;
+    margin-bottom: 2rem;
+  }
+  
+  .learn{
+    background-color: #e30613;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 30px;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .circle-icon {
+    background: white;
+    color: #e30613;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  
+  .feedback-tab {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background-color: #e30613;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.5rem 0.8rem;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+  }
+  
+  .feedback-icon {
+    font-size: 1rem;
+    transform: rotate(90deg);
+  }
+  
+  .feedback-text {
+    font-size: 0.9rem;
+    font-weight: bold;
+    transform: rotate(90deg);
+  }
+  
+  
+  .support {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #e30613;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    cursor: pointer;
+    overflow: hidden; 
+  }
+  
+  .support img {
+    width: 70%;
+    height: 70%;
+    object-fit: contain; 
+  }
+  
+  
